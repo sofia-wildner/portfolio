@@ -1,0 +1,67 @@
+/* Alteração fora do book. Estilo específico para o subtítulo externo */
+.hero-subtitle {
+  color: #e6e2e2;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  opacity: 0.9; /* Opcional: contraste suave e elegante */
+}
+
+/* ==========================================================================
+   LAYOUT & SCENE CONTAINER
+   ========================================================================== */
+.scene {
+  width: 100vw;
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 2000px;
+}
+
+/* Ajustes de Apresentação Inicial */
+.initial-scale h1 {
+  color: var(--text-dark);
+  font-size: 24px;
+}
+
+.initial-scale p {
+  color: var(--text-light);
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+div.Apresentacao {
+  margin: 20px;
+  max-width: 600px;
+  width: 90%;
+  padding: 20px;
+  height: 600px;
+  box-sizing: border-box;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--card-bg);
+  border-radius: 15px;
+}
+
+.Apresentacao img {
+  border-radius: 10%;
+  margin-bottom: 2px;
+  margin-top: 10px;
+}
+
+.Apresentacao h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: var(--text-dark);
+}
+
+.Apresentacao p {
+  font-size: 16px;
+  color: var(--text-light);
+}

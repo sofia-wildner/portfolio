@@ -1,0 +1,75 @@
+/* ==========================================================================
+   VARIABLES & RESET
+   ========================================================================== */
+:root {
+  --bg-color: #6102b9;
+  --card-bg: #4b0082;
+  --page-bg: #4b0082;
+  --text-dark: #1f1e1e;
+  --text-light: #e2a1a1;
+  --text-h1: #656bae;
+  --text-ul: #a186bb;
+  --border-color: #e2e8f0;
+  --primary: #250841;
+  --primary-light: #d678eb;
+  --primary-dark: #4b0082;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  background-image: radial-gradient(#ffffff 0%, var(--bg-color) 85%);
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Tipografia Base */
+h1 {
+  color: var(--text-dark);
+  font-size: 2rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: var(--primary);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: var(--text-light);
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 85%;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+ul {
+  color: var(--text-ul);
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  width: 150px;
+  border-radius: 10%;
+  margin-bottom: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
